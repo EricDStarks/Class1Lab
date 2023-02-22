@@ -39,9 +39,9 @@
                 let text;
                 let person = prompt("Enter your name for yes or hit cancel for no");
                 if (person == null || person == "") {
-                    text = "You missing out!";
+                    alert("You missing out!");
                 } else {
-                    text = "I love seafood too " + person + "!";
+                    alert("I love seafood too " + person + "!");
                 }
                 document.getElementsById("demo1").innerHTML = text;
             }
