@@ -5,7 +5,7 @@
             body {background-color: #005477;}
             h1 {color: darkgrey;}
             
-            p.ex1 {color: mediumseagreen;}
+            p.demo {color: mediumseagreen;}
             p.ex2 {color: midnightblue;}
             p.ex3 {color: salmon;}
             p.ex4 {color: #E6E6FA;}
@@ -25,7 +25,7 @@
 
        
         
-        <p class="ex1">Are you a seafood lover?</p><button onclick="Yes()">Yes</button><button onclick="No()">No</button>
+        <p class="demo">Are you a seafood lover?</p><button onclick="Yes()">Yes</button><button onclick="No()">No</button>
    
        
         <p class="ex2">Why do you love seafood? Or don't love it?</p><button onclick="LoveIt()">Love It</button><button onclick="DontLoveIt()">Don't Love It</button>
@@ -43,7 +43,7 @@
                 } else {
                     text = "I love seafood too " + person + "!";
                 }
-                document.getElementsByClassName("ex1").innerHTML = text;
+                document.getElementsById("demo").innerHTML = text;
             }
         </script>
 
