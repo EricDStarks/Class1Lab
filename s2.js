@@ -1,6 +1,6 @@
 function yes() {
-    let text;
-    let person = prompt("Enter name here:");
+    let ex1 = "Enter name here";
+    var name = prompt("Enter name here:");
     {
         text = "I love seafood too " + person + "!";
     }
