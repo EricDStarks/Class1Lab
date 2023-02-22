@@ -4,6 +4,6 @@ function yes() {
     {
         text = "I love seafood too " + person + "!";
     }
-    document.getElementsByClassName("ex1"),innerHTML = text;
+    
     
 }
