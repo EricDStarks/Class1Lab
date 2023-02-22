@@ -35,5 +35,18 @@
 
         <script src="s2.js"></script>
 
+        <script>
+            function yes() {
+                let text;
+                let person = prompt("Enter your name");
+                if (person == null || person == "") {
+                    text = "User cancelled the prompt.";
+                } else {
+                    text = "I love seafood too " + person + "!";
+                }
+                document.getElementsByClassName("ex1").innerHTML = text;
+            }
+        </script>
+
     </body>
 </html>
